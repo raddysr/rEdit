@@ -64,12 +64,6 @@ color_dict = {
     'Night Blue' : ('#ededed', '#6b9dc2')    
 }  
 
-#count = 0 
-
-#for i in color_dict:
- #   color_theme.add_radiobutton(label = i, image=color_icons[count], variable = theme_choice, compound = tk.LEFT)
-  #  count +=1
-
 #cascades 
 main_menu.add_cascade(label = 'File', menu = file)
 main_menu.add_cascade(label = 'Edit', menu = edit)
@@ -78,7 +72,8 @@ main_menu.add_cascade(label = 'Color Theme', menu = color_theme)
 
         #--------------------------------------- main menu end ---------------------------------------#
 
-######################################### toolbar #################################################################
+
+  ######################################### toolbar #################################################################
 
 tool_bar = ttk.Label(main_application)
 tool_bar.pack(side=tk.TOP, fill = tk.X) 
