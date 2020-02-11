@@ -9,7 +9,7 @@ main_application.title('rEdit text editor')
 main_application.wm_iconbitmap('icon.ico')
 
 ######################################### main menu ###############################################################
-        #--------------------------------------- main menu end ---------------------------------------#
+      
 main_menu = tk.Menu()
 
 ###File
@@ -76,6 +76,7 @@ main_menu.add_cascade(label = 'Edit', menu = edit)
 main_menu.add_cascade(label = 'View', menu = view)
 main_menu.add_cascade(label = 'Color Theme', menu = color_theme)
 
+        #--------------------------------------- main menu end ---------------------------------------#
 
 ######################################### toolbar #################################################################
 
