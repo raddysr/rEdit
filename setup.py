@@ -8,6 +8,7 @@ if sys.platform == 'win32':
 
 os.environ['TCL_LIBRARY'] =r"C:\Python\Python37\tcl\tcl8.6"
 os.environ['TK_LIBRARY'] =r"C:\Python\Python37\tcl\tk8.6"
+
 executables = [cx_Freeze.Executable("rEdit.py", base=base, icon="icon.ico")]
 
 cx_Freeze.setup(
