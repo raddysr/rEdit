@@ -14,6 +14,7 @@ main_menu = tk.Menu()
 
 ###File
 #file icons:
+
 new_icon = tk.PhotoImage(file ='icons/new.png')
 open_icon = tk.PhotoImage(file ='icons/open.png')
 save_icon = tk.PhotoImage(file ='icons/save.png')
