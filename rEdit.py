@@ -21,7 +21,6 @@ save_icon = tk.PhotoImage(file ='icons/save.png')
 save_as_icon = tk.PhotoImage(file ='icons/save_as.png')
 exit_icon = tk.PhotoImage(file ='icons/exit.png')
 
-
 file = tk.Menu(main_menu, tearoff = False)
 
 ###Edit
