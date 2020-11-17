@@ -3,6 +3,9 @@ from tkinter import ttk
 from tkinter import font, colorchooser, filedialog, messagebox
 import os
 
+####THIS LINE IS ADD WITH SSH
+
+
 main_application = tk.Tk()
 main_application.geometry('1200x800')
 main_application.title('rEdit text editor')
